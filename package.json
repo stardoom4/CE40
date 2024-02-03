@@ -14,11 +14,18 @@
   "author": "5t3ph",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
     "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0"
   },
   "browserslist": [
     "> 0.2%",
     "not dead"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/5t3ph/11ty-sass-skeleton/issues"
+  },
+  "homepage": "https://github.com/5t3ph/11ty-sass-skeleton#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
 }
