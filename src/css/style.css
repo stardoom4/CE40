@@ -61,7 +61,7 @@ text-align:left;
 max-width:725px; /* 全体の幅・大きさはここで変更 */
 }
 header{
-background:url(/image/pg_mon.webp) no-repeat 100% 0;
+background:url(image/pg_mon.webp) no-repeat 100% 0;
 border:1px solid #fff;
 border-radius:3px;
 min-height:200px
@@ -92,7 +92,7 @@ text-align:center
 padding:20px
 }
 footer{
-background:url(/image/pg_mon.webp);
+background:url(image/pg_mon.webp);
 border:1px solid #fff;
 border-radius:3px;
 padding:10px 20px;
@@ -122,7 +122,7 @@ display:block;
 margin:0 auto
 }
 nav span{
-background-image:url(/image/matrix.gif);
+background-image:url(image/matrix.gif);
 border:1px solid #fff;
 border-radius:3px;
 color:#fff;
