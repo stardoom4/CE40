@@ -2,6 +2,7 @@
 share: true
 title: Shows I have watched
 layout: base.njk
+permalink: /shows/
 ---
 
 # Table of Content
