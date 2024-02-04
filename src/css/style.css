@@ -61,7 +61,7 @@ text-align:left;
 max-width:725px; /* 全体の幅・大きさはここで変更 */
 }
 header{
-background:url(/image/matrix.gif) no-repeat 100% 0;
+background:url(/image/pg_mon.webp) no-repeat 100% 0;
 border:1px solid #fff;
 border-radius:3px;
 min-height:200px
@@ -92,7 +92,7 @@ text-align:center
 padding:20px
 }
 footer{
-background:url(image/back01.png);
+background:url(/image/pg_mon.webp);
 border:1px solid #fff;
 border-radius:3px;
 padding:10px 20px;
@@ -122,7 +122,7 @@ display:block;
 margin:0 auto
 }
 nav span{
-background-image:url(image/back02.png);
+background-image:url(/image/matrix.gif);
 border:1px solid #fff;
 border-radius:3px;
 color:#fff;
@@ -459,4 +459,16 @@ top:5px;width:100%
 #open .close:before{-ms-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
 #open .close:after{-ms-transform:rotate(-135deg);-webkit-transform:rotate(-135deg);transform:rotate(-135deg)}
 
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
 }
