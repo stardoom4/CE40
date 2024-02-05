@@ -1,7 +1,7 @@
 ---
 share: true
 title: Shows I have watched
-layout: base.njk
+layout: blog.njk
 permalink: /shows/
 ---
 
