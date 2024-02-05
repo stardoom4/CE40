@@ -5,7 +5,7 @@ permalink: /articles/
 share: true
 ---
 
-- <a href="ChatGpt Easter egg.md">ChatGpt Easter egg</a>
+- <a href="/cgee">ChatGpt Easter egg</a>
 - [Big Bang](Big%20Bang.md)
 - [TdeltaS](TdeltaS.md)
 - [Singularity](Singularity.md)
