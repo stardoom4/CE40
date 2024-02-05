@@ -1,6 +1,7 @@
 ---
 share: true
 title: ChatGpt Easter Egg
+permalink: /cgee/
 ---
 
 There is an Easter egg which I found in Chat Gpt's Android app.
