@@ -2,6 +2,7 @@
 share: true
 title: ChatGpt Easter Egg
 permalink: /cgee/
+layout: _includes/blog.njk
 ---
 
 There is an Easter egg which I found in Chat Gpt's Android app.
