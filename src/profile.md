@@ -1,5 +1,5 @@
 ---
 title: Profile
-layout: base.njk
+layout: blog.njk
 permalink: /profile/
 ---
