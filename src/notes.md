@@ -1,6 +1,5 @@
-
 ---
-title: Notes
 layout: base.njk
+title: Notes
 permalink: /notes/
 ---
