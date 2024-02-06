@@ -1,12 +1,20 @@
-$color: rebeccapurple;
-
 body {
   font-family: system-ui;
-  background-color: #f9f9f9;
+  background-color: #000;
 }
 
-h1 {
-  color: $color;
-  width: fit-content;
-  margin-inline: auto;
+a {
+  color: #fff;
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
 }
