@@ -22,3 +22,24 @@ a {
 #statuscafe-content {
     margin: 0 1em 0.5em 1em;
 }
+
+.una {
+  text-align: center;
+  display: block;
+  line-height: 1px;
+  height: 1px;
+  margin: 2rem 0;
+  background: #B3B04F;
+}
+.una:before, .una:after {
+  content: '\2021';
+  font-size: 2rem;
+  color: #B3B04F;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.una:before {
+  left:0;
+}
+.una:after {
+  right: 0;
