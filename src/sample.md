@@ -18,7 +18,9 @@ Nunc justo magna, bibendum et velit eget, porta euismod purus. Quisque vestibulu
   width: 100%;
   height: 100%;
   background-color: #121212;
-  padding: 10px;
   border-radius: 8px;
+}
+p {
+  padding: 8px;
 }
 </style>
