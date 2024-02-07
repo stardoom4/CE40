@@ -23,7 +23,7 @@ a {
 }
 
 hr.style2 {
-  border-top: 3px double #8c8b8b;
+  border-top: 3px single #357670;
 }
 /* nav {
   font-weight:bold;
@@ -36,11 +36,14 @@ summary::-webkit-details-marker {
 summary:focus {
   outline-style: none;
 }
-
-nav {
-	display: flex;
-	padding: 1;
-	margin: 0;
-	list-style: none;
-  margin-right: 1em;
+.navigation-homepage ul,
+a {
+  font-family: serif;
+  font-size: 16px;
+  list-style-type: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
 }

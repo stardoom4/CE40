@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="This is my persoanal site.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name=”robots” content="index, follow">
 	<title>{{ title }}</title>
 	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
 </head>
@@ -11,7 +12,14 @@
 	<header>
 		<h1>{{ title }}</h1>
 	</header>
-<nav><strong><a href="/">Home</a>//<a href="/notes">Note</a>//<a href="/about">About</a></strong></nav>
+<div class="navigation-homepage">
+  <ul>
+    <li> <a href="/" style="text-decoration: none"> Home </a> <br> </li>
+    <li> <a href="/notes/" style="text-decoration: none"> Notes </a> <br> </li>
+    <li> <a href="/about/" style="text-decoration: none"> About </a> <br> </li>
+    <li> <a href="/status/" style="text-decoration: none"> Status </a> <br> </li>
+  </ul>
+</div>
 <hr class="style2">
 	<main>
 	{{ content | safe }}
