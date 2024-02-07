@@ -5,10 +5,10 @@ body {
   max-width: 900px;
   margin: auto;
   padding:2 5%;
-  font-size: 1rem;
 }
 a {
   color: #357670;
+  text-decoration: none;
 }
 #statuscafe {
     padding: .5em;
@@ -24,11 +24,4 @@ a {
 
 hr.style2 {
 	border-top: 3px double #8c8b8b;
-}
-
-h1 {
-   font-size: 2rem;
-}
-h2 {
-  font-size: 1.5rem;
 }
