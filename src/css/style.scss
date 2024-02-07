@@ -25,9 +25,9 @@ a {
 hr.style2 {
   border-top: 3px double #8c8b8b;
 }
-nav {
+/* nav {
   font-weight:bold;
-  display:inline
+  display:inline */
 }
 /* Optional styling */
 summary::-webkit-details-marker {
@@ -35,4 +35,14 @@ summary::-webkit-details-marker {
 }
 summary:focus {
   outline-style: none;
+}
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
 }
