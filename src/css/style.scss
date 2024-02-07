@@ -36,9 +36,10 @@ summary::-webkit-details-marker {
 summary:focus {
   outline-style: none;
 }
-.nav {
+
+nav {
 	display: flex;
-	padding: 0;
+	padding: 1;
 	margin: 0;
 	list-style: none;
   margin-right: 1em;
