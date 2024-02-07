@@ -15,10 +15,10 @@ Nunc justo magna, bibendum et velit eget, porta euismod purus. Quisque vestibulu
 </div>
 <style>
 .card {
-  width: 900px;
+  width: 100%;
   height: 100%;
   background-color: #121212;
-  padding: 2 5%;
+  padding: 10px;
   border-radius: 8px;
 }
 </style>
