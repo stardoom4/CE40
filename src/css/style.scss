@@ -29,3 +29,10 @@ nav {
   font-weight:bold;
   display:inline
 }
+/* Optional styling */
+summary::-webkit-details-marker {
+  color: #357670 ;
+}
+summary:focus {
+  outline-style: none;
+}
