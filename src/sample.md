@@ -21,6 +21,6 @@ Nunc justo magna, bibendum et velit eget, porta euismod purus. Quisque vestibulu
   border-radius: 8px;
 }
 p {
-  padding: 8px;
+  padding: 10px;
 }
 </style>
