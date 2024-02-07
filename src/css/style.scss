@@ -36,13 +36,13 @@ summary::-webkit-details-marker {
 summary:focus {
   outline-style: none;
 }
-.nav {
+nav {
 	display: flex;
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
-.nav-item {
+nav-item {
 	display: inline-block;
 	margin-right: 1em;
 }
