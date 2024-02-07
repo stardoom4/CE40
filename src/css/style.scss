@@ -11,20 +11,21 @@ a {
   text-decoration: none;
 }
 #statuscafe {
-    padding: .5em;
-    background-color: #000;
-    border: 1px solid #357670;
+  padding: .5em;
+  background-color: #000;
+  border: 1px solid #357670;
 }
 #statuscafe-username {
-    margin-bottom: .5em;
+  margin-bottom: .5em;
 }
 #statuscafe-content {
-    margin: 0 1em 0.5em 1em;
+  margin: 0 1em 0.5em 1em;
 }
 
 hr.style2 {
-    border-top: 3px double #8c8b8b;
+  border-top: 3px double #8c8b8b;
 }
-.nav {
-    word-spacing: 20px;
+nav {
+  font-weight:bold;
+  display:inline
 }
