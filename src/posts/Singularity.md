@@ -1,5 +1,5 @@
 ---
-share: true
+tags: general
 title: Singularity
 layout: blog
 Published: 2024-02-09 06:08:54
