@@ -1,8 +1,7 @@
 ---
 share: true
 title: Series I have watched
-tags:
-  - general
+tags: general
 Updated: 2024-02-09 10:58:26
 Published: 2024-02-09 10:55:04
 ---
