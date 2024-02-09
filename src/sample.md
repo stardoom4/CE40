@@ -7,7 +7,8 @@ title: Sample
 <div class="card">
 <p>
  <a href="https://nasa.gov">Nasa</a>
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas vel dui eu egestas. Integer ante libero, fringilla at varius ut, malesuada ut lorem. Quisque a arcu sit amet arcu malesuada suscipit id sed velit. Donec vel pulvinar ex, et varius lacus. Donec ultrices quam in euismod feugiat. Duis commodo massa sed sem mollis, eget dapibus augue aliquet. Suspendisse porttitor enim finibus lorem semper, egestas molestie mi scelerisque. Donec interdum purus vel ex ultricies gravida. Ut venenatis feugiat magna, ac viverra tellus efficitur et.
+<hr>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas vel dui eu egestas. Integer ante libero, fringilla at varius ut, malesuada ut lorem. Quisque a arcu sit amet arcu malesuada suscipit id sed velit. Donec vel pulvinar ex, et varius lacus. Donec ultrices quam in euismod feugiat. Duis commodo massa sed sem mollis, eget dapibus augue aliquet. Suspendisse porttitor enim finibus lorem semper, egestas molestie mi scelerisque. Donec interdum purus vel ex ultricies gravida. Ut venenatis feugiat magna, ac viverra tellus efficitur et.
 
 Fusce fermentum metus eu quam vestibulum, sit amet mattis justo feugiat. In congue hendrerit lorem, non eleifend urna ultricies a. Maecenas dictum eget diam quis efficitur. Integer sit amet dapibus lorem. Fusce nec massa urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur urna vitae nisl euismod, id convallis diam lobortis. Proin sed mollis dolor, sed facilisis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis ut volutpat ligula. Proin lacinia vestibulum ex vel dignissim. Vestibulum eget laoreet ante. Vivamus consectetur ultricies urna quis blandit. Fusce a elit tempor, gravida ante sed, interdum enim.
 
