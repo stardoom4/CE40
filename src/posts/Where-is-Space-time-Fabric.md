@@ -1,6 +1,6 @@
 ---
-share: true
 layout: blog
+tags: general
 title: Where is space time fabric
 Published: 2024-02-09 06:08:54
 ---
