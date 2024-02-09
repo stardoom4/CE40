@@ -1,0 +1,4 @@
+Sitemap: https://garud.netlify.app/sitemap.xml
+
+User-agent: *
+Disallow:
