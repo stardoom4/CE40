@@ -1,5 +1,5 @@
 ---
-layout: Base
+layout: base
 title: Series I have watched
 ---
 ## Anime
