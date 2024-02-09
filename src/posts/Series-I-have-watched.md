@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: Series I have watched
 tags: general
 Updated: 2024-02-09 10:58:26
