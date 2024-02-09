@@ -1,5 +1,5 @@
 ---
-share: true
+tags: general
 layout: blog
 Published: 2024-02-09 06:08:54
 title: How to find stability of carbocation.
