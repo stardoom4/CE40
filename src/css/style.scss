@@ -6,11 +6,11 @@ body {
   margin: auto;
   padding: 2 5%;
 }
-a {
+/*a {
   font-size: 1.4;
   color: #357670;
   text-decoration: none;
-}
+}*/
 #statuscafe {
   padding: .5em;
   background-color: #000;
@@ -65,7 +65,8 @@ h2 {
 p,
 dl,
 ol,
-ul {
+ul,
+a {
     font-size: 1.4rem;
     line-height: 2rem;
 }
