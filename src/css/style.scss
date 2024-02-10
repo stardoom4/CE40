@@ -7,7 +7,7 @@ body {
   padding: 2 5%;
 }
 a {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #357670;
   text-decoration: underline;
 }
@@ -21,17 +21,6 @@ a {
 }
 #statuscafe-content {
   margin: 0 1em 0.5em 1em;
-}
-
-hr.style2 {
-  border-top: 3px single #357670;
-}
-
-summary::-webkit-details-marker {
-  color: #357670 ;
-}
-summary:focus {
-  outline-style: none;
 }
 .navigation-homepage ul,
 a {
