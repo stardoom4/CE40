@@ -22,7 +22,13 @@ a {
 #statuscafe-content {
   margin: 0 1em 0.5em 1em;
 }
-
+.navigation-homepage ul,
+a {
+  font-family: serif;
+  font-size: 1.4rem;
+  list-style-type: none;
+  display: flex;
+}
 
 h1 {
     font-weight: 400;
