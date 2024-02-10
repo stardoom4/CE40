@@ -93,3 +93,9 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #080c0c;
 }
+img {
+	max-width: 100%;
+	border: none;
+}
+img[width][height] {
+	height: auto;
