@@ -7,7 +7,6 @@
 	<meta name=”robots” content="index, follow">
 	<title>{{ title }}</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
-<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>	
 <body>
 	<header>
@@ -30,7 +29,7 @@
 	</main>
 <hr>
 	<footer>
-<strong>Current version: 1.4</strong>
+<strong>Current version: 1.6</strong>
 <div class="navigation-homepage">
   <ul>
 <li> <a href="https://ce40-seo.netlify.app"> Stats </a> </li>/
@@ -38,16 +37,5 @@
  </ul>
 </div>
 </footer>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on('init', user => {
-      if (!user) {
-        window.netlifyIdentity.on('login', () => {
-          document.location.href = '/admin/';
-        });
-      }
-    });
-  }
-</script>
 </body>
 </html>

@@ -21,3 +21,4 @@ title: Series I have watched
 - Star Wars (all movies)
 - Ahsoka
 - Mandalorian 
+- All os us are Dead
