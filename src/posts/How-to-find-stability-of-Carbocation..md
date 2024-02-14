@@ -26,4 +26,3 @@ Determining the stability of a carbocation involves understanding the factors th
 
 Remember, the most stable carbocation is the one that has the lowest energy due to effective delocalization of its positive charge. By analyzing the factors mentioned above, you can predict the relative stability of different carbocations in a given molecule.
 
-Feel free to ask if you have any further questions or specific examples you'd like to discuss!
