@@ -9,4 +9,3 @@ permalink: /microblog/
 		<p>{{ post.templateContent | striptags(true) | truncate(1000) | safe }}</p>
 </li>
 {% endfor %}
-</ul>
