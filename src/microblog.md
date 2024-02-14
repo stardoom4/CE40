@@ -5,7 +5,7 @@ permalink: /microblog/
 ---
 {%- for post in collections.micro %}
 <li>
-		<a href="{{post.url}}">{{ post.data.title }} , {{ post.data.published }}</a>
+		<a href="{{post.url}}">{{ post.data.title }}</a>
 		<p>{{ post.templateContent | striptags(true) | truncate(1000) | safe }}</p>
 </li>
 {% endfor %}
