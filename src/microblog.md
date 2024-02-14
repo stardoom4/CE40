@@ -3,4 +3,10 @@ title: Microblog
 layout: base
 permalink: /microblog/
 ---
-- 11-02-2024 , 20:44: Completed watching All of us are dead yesterday. One of the greatest series I have seen.
+{%- for post in collections.micro %}
+<li>
+		<a href="{{post.url}}">{{ post.data.title }} , {{ post.data.published }}</a>
+		<p>{{ post.templateContent | striptags(true) | truncate(1000) | safe }}</p>
+</li>
+{% endfor %}
+</ul>
