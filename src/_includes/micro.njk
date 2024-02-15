@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is my persoanal site.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name=”robots” content="index, follow">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+</head>
+<body>
+	<header>
+		<h1>{{ title }}</h1>
+	</header>
+<div class="scrollmenu">
+<div class="navigation-homepage">
+  <ul>
+    <li> <a href="/" style="text-decoration: none"> Home </a> <br> </li>
+    <li> <a href="/notes/" style="text-decoration: none"> Notes </a> <br> </li>
+	<li> <a href="/microblog/" style="text-decoration: none"> Microblog </a> <br> </li>
+    <li> <a href="/about/" style="text-decoration: none"> About </a> <br> </li>
+    <li> <a href="/extra/" style="text-decoration: none"> Extra </a> <br> </li>
+  </ul>
+</div>
+</div>
+<hr>
+	<main>
+    <p>Published: {{ Published }}</p>
+	{{ content | safe }}
+	</main>	
+<hr>
+<footer>
+<strong>Current version: 2.0</strong>
+<div class="navigation-homepage">
+  <ul>
+<li> <a href="https://garud.openstatus.dev/"> Status </a> </li>/
+<li> <a href="/sample"> Sample Page </a> </li>
+ </ul>
+</div>
+</footer>
+</body>
+</html>
