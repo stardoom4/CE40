@@ -1,8 +1,8 @@
 ---
-bookmark-of: https://11ndieweb.netlify.app/posts/notes/2021-08-03-this-note-was-posted-using-mic/
+bookmark-of: https://garud.netlify.app/posts/hello-world/
 title: Bookmarking my own note
-date: 2021-08-04T12:24:03.367Z
+Published: 2021-08-04T12:24:03.367Z
 layout: bookmark.njk
 tags: bookmarks
 ---
-And this is a bookmark of a note.
+And this is a bookmark of my own note.
