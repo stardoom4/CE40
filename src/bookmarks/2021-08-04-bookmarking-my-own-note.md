@@ -3,5 +3,6 @@ bookmark-of: https://11ndieweb.netlify.app/posts/notes/2021-08-03-this-note-was-
 title: Bookmarking my own note
 date: 2021-08-04T12:24:03.367Z
 layout: bookmark.njk
+tags: bookmarks
 ---
 And this is a bookmark of a note.
