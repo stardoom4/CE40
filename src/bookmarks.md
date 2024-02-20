@@ -7,11 +7,9 @@ permalink: /bookmarks/
 * [{{ post.data.title }}]({{ post.url }})
 {%- endfor %}
 <hr>
-<ul>
-{% for post in collections.bookmarks %}
-	<li>
+{%- for post in collections.bookmarks %}
+<li>
 		<a href="{{post.url}}">{{ post.data.title }}</a>
-		<p>{{ post.templateContent | striptags(true) | truncate(440) | safe }}</p>
-	</li>
+		<p>{{ post.templateContent | striptags(true) | truncate(1000) | safe }}</p>
+</li>
 {% endfor %}
-</ul>
