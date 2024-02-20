@@ -11,7 +11,7 @@ permalink: /bookmarks/
 {% for post in collections.bookmarks %}
 	<li>
 		<a href="{{post.url}}">{{ post.data.title }}</a>
-		<p>{{ post.templateContent | striptags(true) | truncatewords(440) | safe }}</p>
+		<p>{{ post.templateContent | striptags(true) | truncate(440) | safe }}</p>
 	</li>
 {% endfor %}
 </ul>
