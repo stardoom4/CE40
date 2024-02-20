@@ -1,4 +1,4 @@
 { 
-	"layout": "bookmark.liquid",
+	"layout": "bookmark.njk",
 	"type": "bookmark" 
 }
