@@ -5,4 +5,6 @@
     "authorUrl": "https://garud.netlify.app",
     "description": "A personal site",
     "favicon": "img/icon.webp"
+    "robots": "/robots.txt",
+    "siteMap": "/sitemap.xml"
   }
