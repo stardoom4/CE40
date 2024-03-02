@@ -6,7 +6,7 @@ const liveServer = require('live-server');
 
 // Set up Nunjucks environment
 const templatesDir = path.join(__dirname, 'templates');
-const outputDir = path.join(__dirname, 'output');
+const outputDir = path.join(__dirname, 'public');
 
 // Create the output directory if it doesn't exist
 if (!fs.existsSync(outputDir)) {
