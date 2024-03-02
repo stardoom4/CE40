@@ -4,12 +4,18 @@
   "description": "Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.",
   "main": "index.html",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "npm run build && npm run compile && node void-bin",
+    "build": "npx eleventy && NODE_ENV=production node void.js",
+    "dev": "npx eleventy && NODE_ENV=development node void.js",
+    "compile": "pkg void.js --output void-bin"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/5t3ph/11ty-sass-skeleton.git"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "pkg": "^5.5.0"
   },
   "author": "5t3ph",
   "license": "ISC",
