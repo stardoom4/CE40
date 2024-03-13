@@ -1,6 +1,6 @@
 ## Given
-**Mass of Earth**: 5.972x10^24 kg<br>
-**Distance Between Earth and Sun**: 1.496x10^11 m<br>
+**Mass of Earth**: 5.972x10^24 kg  
+**Distance Between Earth and Sun**: 1.496x10^11 m  
 **Gravitational acceleration of Earth**: 9.8
 
 ## Here's how you can do it
