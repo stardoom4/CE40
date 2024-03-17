@@ -9,9 +9,9 @@
 </head>
 <body>
   <h1>{{ title }}</h1>
-  <div class="scrollmenu">
-<div class="navigation-homepage">
-  <ul>
+<div id="mySidepanel" class="sidepanel">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<ul>
     <li> <a href="/" style="text-decoration: none"> Home </a> <br> </li>
     <li> <a href="/notes/" style="text-decoration: none"> Notes </a> <br> </li>
 	<li> <a href="https://garud-mb.netlify.app/" style="text-decoration: none"> Microblog </a> <br> </li>
@@ -21,11 +21,19 @@
     <li> <a href="/extra/" style="text-decoration: none"> Extra </a> <br> </li>
   </ul>
 </div>
-</div>
+<button class="openbtn" onclick="openNav()">☰</button>
   <hr>
   <div>
     {{ content | safe }}
   </div>
   <hr>
+<script>
+function openNav() {
+document.getElementById("mySidepanel").style.width = "250px";
+}
+function closeNav() {
+document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
 </body>
 </html>
