@@ -1,7 +1,7 @@
 body {
-  background-color: #080c0c;
+  background-color: #000000;
   font-family: Garamond, serif;;
-  color: #d9ffdb;
+  color: #fff;
   max-width: 900px;
   margin: auto;
   padding: 2 5%;
@@ -55,7 +55,7 @@ p {
     vertical-align: baseline;
 }
 div.scrollmenu {
-  background-color: #080c0c;
+  background-color: #000000;
   overflow: auto;
   white-space: nowrap;
 }
@@ -69,7 +69,7 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #080c0c;
+  background-color: #000000;
 }
 img {
 	max-width: 100%;
@@ -107,7 +107,7 @@ z-index: 1;
 height: 100%;
 top: 0;
 left: 0;
-background-color: #357670;
+background-color: #121212;
 overflow-x: hidden;
 transition: 0.5s;
 padding-top: 60px;
@@ -116,7 +116,7 @@ padding-top: 60px;
 padding: 8px 8px 8px 32px;
 text-decoration: none;
 font-size: 25px;
-color: #080c0c;
+color: #357670;
 display: block;
 transition: 0.3s;
 }
@@ -133,12 +133,12 @@ font-size: 36px;
 position: fixed;
 font-size: 20px;
 cursor: pointer;
-background-color: #080c0c;
+background-color: #000000;
 color: white;
 padding: 6px 10px;
 bottom: 8px;
 border: none;
 }
 .openbtn:hover {
-background-color: #080c0c;
+background-color: #000000;
 }
