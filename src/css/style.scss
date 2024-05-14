@@ -36,14 +36,14 @@ table th>pre {
   margin: 0;
 }
 a {
-  font-size: 1.4rem;
+  font-size: 16px;
   color: #fff;
   text-decoration: underline;
 }
 .navigation-homepage ul,
 a {
   font-family: serif;
-  font-size: 1.4rem;
+  font-size: 16px;
   list-style-type: none;
   border: 0px;   
   margin: 0px;   
@@ -73,7 +73,7 @@ p,
 dl,
 ol,
 ul {
-    font-size: 1.4rem;
+    font-size: 16px;
     line-height: 2rem;
 }
 
@@ -91,14 +91,15 @@ div.scrollmenu {
 
 div.scrollmenu a {
   display: inline-block;
-  color: #357670;
+  color: #fff;
   text-align: center;
   padding: 10px;
   text-decoration: none;
 }
 
 div.scrollmenu a:hover {
-  background-color: #000000;
+  color: #000000
+  background-color: #fff;
 }
 img {
 	max-width: 100%;
@@ -119,7 +120,7 @@ blockquote:before {
 }
 
 blockquote {
-  font-size: 1.4rem;
+  font-size: 16px;
   padding: 0 10px;
   border-left: 3px solid #fff;
   font-style: italic;
