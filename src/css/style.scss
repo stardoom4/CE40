@@ -216,14 +216,4 @@ details {
   border-radius: 5px;
 }
 
-/* extra styles */
-
-* {box-sizing: border-box;}
-body {font-family: system-ui, sans-serif; margin: 20px; background: #fff9f1;}
-h1 {font-size: 1.2em;}
-article > *:first-child {margin: 0;}
-article > * + * {margin: 0.75em 0 0 0;}
-pre {color: white; background: #455e7b; padding: 1em; border-radius: 5px;}
-article {padding: 10px; margin: 0;}
-details code {font-size: 1.1em;}
 
