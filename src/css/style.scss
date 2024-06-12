@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +7,16 @@
   color: #ffffff;
 }
 header {
-  font-size: 30px;
+  font-weight: 400;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-size: 3.2rem;
+  line-height: 1;
 }
 body {
   background-color: #000000;
-  font-family: Garamond, serif;;
-  max-width: 624px;
+  font-family: "Alegreya", serif;
+  max-width: 900px;
   padding: 30px;
   clear: both;
 }
