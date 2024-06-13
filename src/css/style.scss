@@ -201,18 +201,8 @@ figure figcaption {
   max-width: 400px;
 }
 
-
-summary {
-  background-color: #212121;
-  color: white;
-  border-radius: 6px;
-  padding: 10px;
-}
-
-details[open] summary {border-radius: 6px 6px 0 0;}
-
 details {
-  background: #121212;
-  border-radius: 6px;
-  padding: 6px;
+  padding: 10px;
+  background-color: #121212;
+  border-radius: 4px;
 }
