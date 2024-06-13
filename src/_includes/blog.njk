@@ -5,32 +5,35 @@
 	<meta name="description" content="This is my persoanal site.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name=”robots” content="index, follow">
+	
 	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
-</head>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+	<link rel="me" href="https://github.com/stardoom4" />
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+        <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+        <link rel="micropub" href="https://indieweb.org/micropub">
+</head>	
 <body>
 	<header>
-		<h1>{{ title }}</h1>
+		{{ title }}
 	</header>
-<div class="scrollmenu">
-<div class="navigation-homepage">
-  <ul>
-    <li> <a href="/" style="text-decoration: none"> Home </a> <br> </li>
-    <li> <a href="/notes/" style="text-decoration: none"> Index </a> <br> </li>
-	<li> <a href="https://garud-mb.netlify.app/" style="text-decoration: none"> Microblog </a> <br> </li>
-    <li> <a href="/about/" style="text-decoration: none"> About </a> <br> </li>
-  </ul>
-</div>
-</div>
 <hr>
 	<main>
-	{{ content | safe }}
-	</main>	
+	<details>
+<summary>Menu</summary>
+    <a href="/">Home</a><br>
+    <a href="/notes/">Index</a><br>     
+    <a href="/wiki.html">Wiki</a><br> 
+    <a href="https://garud-mb.netlify.app/">Microblog</a><br> 
+    <a href="/about/">About</a> 
+</details>
+{{ content | safe }}
+	</main>
 <hr>
-<footer>
+	<footer>
 <div class="navigation-homepage">
   <ul>
-<li> <a href="/sample"> Sample Page </a> </li>
+<li> <a href="/sample"> Lorem Ipsum </a> </li>
  </ul>
 </div>
 </footer>
