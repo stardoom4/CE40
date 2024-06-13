@@ -203,17 +203,17 @@ figure figcaption {
 
 
 summary {
-  background-color: #2196F3;
+  background-color: #212121;
   color: white;
   padding: 10px;
   border-radius: 5px;
 }
 
-details[open] summary {border-radius: 5px 5px 0 0;}
+details[open] summary {border-radius: 6px 6px 0 0;}
 
 details {
-  background: #b1cadf;
-  border-radius: 5px;
+  background: #121212;
+  border-radius: 6px;
 }
 
 
