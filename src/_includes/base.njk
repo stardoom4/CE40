@@ -17,7 +17,9 @@
 	<header>
 		{{ title }}
 	</header>
-<details>
+<hr>
+	<main>
+	<details>
 <summary>Menu</summary>
     <a href="/">Home</a><br>
     <a href="/notes/">Index</a><br>     
@@ -25,8 +27,7 @@
     <a href="https://garud-mb.netlify.app/">Microblog</a><br> 
     <a href="/about/">About</a> 
 </details>
-	<main>
-	{{ content | safe }}
+{{ content | safe }}
 	</main>
 <hr>
 	<footer>
