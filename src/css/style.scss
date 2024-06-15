@@ -10,13 +10,13 @@ header {
   font-weight: 400;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   line-height: 1;
 }
 body {
   background-color: #000000;
   font-family: "Alegreya", serif;
-  max-width: 664px;
+  max-width: 700px;
   padding: 30px;
   clear: both;
 }
@@ -44,14 +44,14 @@ table th>pre {
   margin: 0;
 }
 a {
-  font-size: 16px;
+  font-size: 22px;
   color: #fff;
   text-decoration: underline;
 }
 .navigation-homepage ul,
 a {
   font-family: serif;
-  font-size: 16px;
+  font-size: 22px;
   list-style-type: none;
   border: 0px;   
   margin: 0px;   
@@ -64,7 +64,7 @@ h1 {
     font-weight: 400;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
-    font-size: 3.2rem;
+    font-size: 3.4rem;
     line-height: 1;
 }
 
@@ -73,7 +73,7 @@ h2 {
     font-weight: 400;
     margin-top: 2.1rem;
     margin-bottom: 1.4rem;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     line-height: 1;
 }
 
@@ -81,7 +81,7 @@ p,
 dl,
 ol,
 ul {
-    font-size: 16px;
+    font-size: 22px;
     line-height: 2rem;
 }
 
@@ -205,6 +205,6 @@ details {
   padding: 10px;
   background-color: #121212;
   border-radius: 4px;
-  padding-bottom: 4px;
-  padding-top: 4px;
+  padding-bottom: 6px;
+  padding-top: 6px;
 }
